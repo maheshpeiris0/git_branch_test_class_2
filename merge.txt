@@ -1,0 +1,2 @@
+This is a merge file
+I like to create conflicts
