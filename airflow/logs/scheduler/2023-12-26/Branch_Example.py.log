@@ -34,3 +34,11 @@
 [2023-12-26T01:07:58.752+0000] {logging_mixin.py:188} INFO - [2023-12-26T01:07:58.752+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2023-12-26T01:07:58.761+0000] {logging_mixin.py:188} INFO - [2023-12-26T01:07:58.761+0000] {dag.py:3820} INFO - Setting next_dagrun for branch_example to None, run_after=None
 [2023-12-26T01:07:58.801+0000] {processor.py:183} INFO - Processing /workspaces/git_branch_test_class_2/airflow/dags/Branch_Example.py took 0.073 seconds
+[2023-12-26T01:08:41.407+0000] {processor.py:161} INFO - Started process (PID=13317) to work on /workspaces/git_branch_test_class_2/airflow/dags/Branch_Example.py
+[2023-12-26T01:08:41.408+0000] {processor.py:830} INFO - Processing file /workspaces/git_branch_test_class_2/airflow/dags/Branch_Example.py for tasks to queue
+[2023-12-26T01:08:41.409+0000] {logging_mixin.py:188} INFO - [2023-12-26T01:08:41.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /workspaces/git_branch_test_class_2/airflow/dags/Branch_Example.py
+[2023-12-26T01:08:41.418+0000] {logging_mixin.py:188} WARNING - /usr/local/python/3.10.13/lib/python3.10/site-packages/airflow/models/baseoperator.py:437 RemovedInAirflow3Warning: provide_context is deprecated as of 2.0 and is no longer required
+[2023-12-26T01:08:41.419+0000] {processor.py:840} INFO - DAG(s) 'branch_example' retrieved from /workspaces/git_branch_test_class_2/airflow/dags/Branch_Example.py
+[2023-12-26T01:08:41.431+0000] {logging_mixin.py:188} INFO - [2023-12-26T01:08:41.430+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2023-12-26T01:08:41.439+0000] {logging_mixin.py:188} INFO - [2023-12-26T01:08:41.439+0000] {dag.py:3820} INFO - Setting next_dagrun for branch_example to None, run_after=None
+[2023-12-26T01:08:41.474+0000] {processor.py:183} INFO - Processing /workspaces/git_branch_test_class_2/airflow/dags/Branch_Example.py took 0.069 seconds
